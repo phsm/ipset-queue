@@ -1,0 +1,9 @@
+# Redis connection details
+[redis]
+server=localhost
+port=6379
+db=0
+
+# For queue putter: enumerate here all the queues (worker names) you are using
+[queue]
+proxies=worker1,worker2,worker3
